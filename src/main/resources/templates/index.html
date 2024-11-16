@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"></meta>
+    <title>Title</title>
+    <style>
+        body{
+            font-family: "NanumGothic", 'sans-serif';
+        }
+    </style>
+</head>
+<body>
+<h1 th:text="${title}">hello</h1>
+<p th:text="${message}">pdf</p>
+<img th:src="@{${imagename}}" alt="image"/>
+</body>
+</html>
